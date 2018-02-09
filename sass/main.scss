@@ -6,7 +6,7 @@
 body { font: 13px Helvetica, Arial; }
 
 form {
-	background: #000;
+	background: black;
 	padding: 3px;
 	position: fixed;
 	bottom: 0;
@@ -18,8 +18,8 @@ form {
 }
 
 #messages {
-	list-style-type: none; margin: 0; padding: 0;
+	list-style-type: none; margin: 0; padding: 0; color: white;
 
-	li { padding: 5px 10px;	}
-	li:nth-child(odd) { background: #eee; }
+	li { padding: 5px 10px;	background: #000; }
+	li:nth-child(odd) { background: #423f3f; }
 }
